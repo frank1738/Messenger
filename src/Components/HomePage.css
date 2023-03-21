@@ -1,0 +1,111 @@
+.home {
+  background-color: #a7bcff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 65%;
+  height: 80%;
+  display: flex;
+  overflow: hidden;
+}
+
+.sidebar {
+  flex: 1;
+  border-right: 1px solid #3e3c61;
+  background-color: #3e3c61;
+}
+
+.chat {
+  flex: 2;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #2f2d52;
+  height: 50px;
+  padding: 10px;
+  justify-content: space-between;
+  color: #ddddf7;
+}
+
+.nav-logo {
+  font-weight: bold;
+}
+
+.user {
+  display: flex;
+  gap: 10px;
+}
+
+.user > img {
+  width: 24px;
+  height: 24px;
+  background-color: #ddddf7;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user > button {
+  background-color: #5d5b8d;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+  color: #ddddf7;
+}
+
+.search {
+  border-bottom: 1px solid gray;
+}
+
+.searchForm {
+  padding: 10px;
+}
+
+.userChat {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.searchForm > input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+.userChat > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.input::placeholder {
+  color: lightgray;
+}
+
+.userChat:hover {
+  background-color: #2f2d52;
+}
+
+.userInfo > span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.userInfo > p {
+  font-size: 14px;
+  color: lightgray;
+}
